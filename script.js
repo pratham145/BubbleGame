@@ -22,8 +22,7 @@ document.querySelector(".time").textContent = timer;
 }
 else{
     clearInterval(timerr)
-   document.querySelector(".pbtm").innerHTML = `<h1>Game Over!
-   Press any key to restart the game</h1>.`
+   document.querySelector(".pbtm").innerHTML = `<h1>Game Over!</h1>.`
    
 }
     },1000)
